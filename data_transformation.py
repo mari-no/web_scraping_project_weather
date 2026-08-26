@@ -23,3 +23,8 @@ for column in temp_columns:
 
 print("Modified dataframe info:")
 print(climate_data.info)
+
+#check for duplicates
+duplicates_count = climate_data.duplicated().sum()
+
+print ("Duplicated rows count: ", duplicates_count)
