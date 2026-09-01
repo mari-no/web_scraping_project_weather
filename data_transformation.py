@@ -17,7 +17,7 @@ climate_data["Precipitation"] = (climate_data["Precipitation"]
 temp_columns = ['High Temp', 'Low Temp', 'Mean Temp']
 for column in temp_columns:
     climate_data[column] = (climate_data[column]
-                            .str.replace(' °F','').astype(float))
+                            .str.replace(' °F','').astype(int))
 
 #check modified df info
 
@@ -29,3 +29,5 @@ duplicates_count = climate_data.duplicated().sum()
 climate_data = climate_data.drop_duplicates()
 
 print ("Duplicated rows count: ", duplicates_count)
+
+climate_data.to_csv("climate_data_clean.csv", index=False)

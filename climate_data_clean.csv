@@ -1,0 +1,189 @@
+City,Month,High Temp,Low Temp,Mean Temp,Precipitation
+Abu Dhabi,August,110,89,100,0.0
+Managua,August,90,74,82,6.15
+Accra,August,83,74,78,1.83
+Manama,August,104,91,98,0.21
+Addis Ababa,August,69,54,62,8.77
+Manila,August,88,77,82,23.42
+Algiers,August,91,69,80,0.38
+Maputo,August,80,59,70,0.58
+Alofi,August,79,68,74,2.61
+Mbabane,August,78,52,65,0.84
+Amman,August,91,70,81,1.73
+Mexico City,August,75,56,66,7.76
+Amsterdam,August,72,56,64,4.05
+Minsk,August,74,56,65,2.78
+Ankara,August,88,62,75,0.65
+Monaco,August,82,70,76,1.03
+Antananarivo,August,73,50,61,0.3
+Monrovia,August,82,74,78,8.16
+Apia,August,86,74,80,3.71
+Montevideo,August,64,48,56,3.8
+Ashgabat,August,99,72,86,0.07
+Moroni,August,85,69,77,0.7
+Astana,August,78,53,66,1.28
+Moscow,August,74,57,65,2.48
+Asuncion,August,82,57,70,1.49
+Muscat,August,94,88,91,4.28
+Athens,August,93,76,85,0.21
+N'Djamena,August,89,73,81,8.06
+Baghdad,August,98,72,85,0.11
+Nairobi,August,74,55,64,0.69
+Baku,August,89,72,80,0.27
+Nassau,August,92,77,84,7.74
+Bamako,August,87,72,79,11.04
+New Delhi,August,95,80,88,10.06
+Bandar Seri Begawan,August,91,75,83,9.52
+Ngerulmud,August,87,76,82,13.03
+Bangkok,August,92,79,85,7.87
+Niamey,August,91,75,83,7.97
+Bangui,August,87,71,79,7.95
+Nicosia,August,99,83,91,1.06
+Banjul,August,88,75,81,8.1
+North Nicosia,August,99,83,91,1.06
+Basseterre,August,88,78,83,3.02
+Nuku'alofa,August,77,65,71,3.1
+Beijing,August,87,70,79,4.96
+Nuuk,August,52,40,46,3.96
+Belgrade,August,87,67,77,1.79
+Oranjestad,August,92,81,86,0.91
+Belmopan,August,90,78,84,7.32
+Oslo,August,70,54,62,3.91
+Berlin,August,76,58,67,2.33
+Ottawa,August,79,58,68,3.21
+Bern,August,76,55,65,2.3
+Palikir,August,89,74,81,14.37
+Bishkek,August,88,62,75,0.42
+Panama,August,88,76,82,8.41
+Bissau,August,86,76,81,11.63
+Paramaribo,August,91,76,84,4.92
+Bogota,August,66,48,57,2.82
+Paris,August,78,56,67,1.77
+Brades,August,88,78,83,3.52
+Podgorica,August,93,71,82,1.29
+Brasilia,August,83,56,70,0.39
+Port-au-Prince,August,94,79,86,2.48
+Bratislava,August,81,61,71,2.17
+Port Louis,August,73,62,67,3.83
+Brazzaville,August,85,68,76,0.65
+Port of Spain,August,91,75,83,8.38
+Bridgetown,August,88,77,82,6.38
+Port Vila,August,81,64,72,2.73
+Brussels,August,73,56,65,3.05
+Porto Novo,August,83,75,79,2.2
+Bucharest,August,87,59,73,1.88
+Prague,August,76,55,65,2.56
+Budapest,August,83,61,72,2.43
+Praia,August,86,76,81,1.06
+Buenos Aires,August,63,49,56,2.62
+Pretoria,August,75,47,61,0.05
+Cairo,August,95,76,86,0.07
+Pristina,August,88,59,73,1.25
+Canberra,August,57,33,45,1.71
+Pyongyang,August,86,71,78,9.03
+Caracas,August,86,72,79,5.29
+Quito,August,67,47,57,4.02
+Castries,August,88,77,83,7.19
+Rabat,August,81,65,73,0.09
+Chișinău,August,83,61,72,2.07
+Rarotonga,August,78,67,72,3.14
+Conakry,August,82,73,77,21.1
+Reykjavik,August,57,48,52,3.21
+Copenhagen,August,71,57,64,2.41
+Riga,August,72,54,63,2.9
+Dakar,August,87,78,82,7.57
+Riyadh,August,110,85,98,1.29
+Damascus,August,100,66,83,0.0
+Road Town,August,89,81,85,2.93
+Dhaka,August,91,80,86,13.67
+Rome,August,90,67,79,1.12
+Dodoma,August,81,59,70,0.13
+Roseau,August,90,75,83,7.27
+Doha,August,107,89,98,0.0
+Saint-Denis,August,78,65,71,2.62
+Douglas,August,64,54,59,2.79
+Saint George's,August,88,77,82,3.57
+Dublin,August,67,52,60,2.87
+Saint John's,August,88,78,83,3.52
+Dushanbe,August,96,62,79,0.09
+San Jose,August,83,66,74,10.62
+Freetown,August,82,75,79,10.75
+San Juan,August,89,78,84,6.32
+Funafuti,August,88,79,83,8.18
+San Marino,August,84,67,75,2.13
+Gaborone,August,80,47,63,0.0
+San Salvador,August,87,69,78,8.79
+George Town (Cayman Islands),August,90,79,85,3.55
+Santiago,August,65,39,52,1.21
+Georgetown (Guyana),August,90,72,81,8.58
+Santo Domingo,August,91,76,84,6.94
+Gibraltar,August,83,70,77,0.04
+São Tomé,August,81,74,77,0.27
+Gitega,August,85,66,75,0.94
+Sarajevo,August,83,58,71,2.46
+Gizo,August,86,75,80,9.44
+Seoul,August,86,72,79,6.09
+Guatemala City,August,78,63,70,7.06
+Singapore,August,89,77,83,6.94
+Hamilton,August,86,77,82,6.41
+Skopje,August,91,62,76,2.17
+Hanoi,August,91,79,85,15.01
+Sofia,August,85,58,72,2.16
+Harare,August,76,49,63,0.06
+Sri Jayawardenepura Kotte,August,87,79,83,5.13
+Havana,August,90,73,82,4.78
+Stanley,August,43,33,38,1.81
+Helsinki,August,69,53,61,3.02
+Stockholm,August,71,55,63,2.26
+Honiara,August,89,73,81,3.43
+Suva,August,79,68,73,4.94
+Islamabad,August,92,76,84,10.37
+Taipei,August,93,80,86,5.51
+Jakarta,August,91,78,84,4.1
+Tallinn,August,71,53,62,4.11
+Jerusalem,August,90,75,83,0.72
+Tarawa,August,88,78,83,3.42
+Kampala,August,79,65,72,2.9
+Tashkent,August,95,65,80,0.12
+Kathmandu,August,84,68,76,12.3
+Tbilisi,August,90,69,80,5.18
+Kigali,August,83,62,73,1.13
+Tegucigalpa,August,85,64,75,4.41
+Kingston,August,92,78,85,3.06
+Tehran,August,97,77,87,0.19
+Kingstown,August,88,78,83,7.65
+Tirana,August,93,65,79,0.72
+Kinshasa,August,85,68,76,0.65
+Tokyo,August,89,77,83,6.12
+Kuala Lumpur,August,91,76,83,7.14
+Tunis,August,94,73,84,0.51
+Kuwait City,August,116,86,101,1.6
+Ulaanbaatar,August,73,49,61,1.86
+Kyiv,August,79,59,69,2.25
+Vaduz,August,76,59,68,4.84
+Libreville,August,82,73,78,0.79
+Valletta,August,89,73,81,0.68
+Lilongwe,August,76,54,65,0.08
+Vatican City,August,90,67,79,1.12
+Lima,August,66,59,63,0.04
+Victoria,August,84,76,80,4.54
+Lisbon,August,83,65,74,0.34
+Vienna,August,80,60,70,2.5
+Ljubljana,August,83,62,72,5.02
+Vientiane,August,90,77,83,13.82
+Lomé,August,84,74,79,1.61
+Vilnius,August,73,54,63,3.57
+London,August,73,55,64,2.29
+Warsaw,August,76,56,66,2.55
+Luanda,August,78,67,73,0.05
+Washington DC,August,87,71,79,3.47
+Lusaka,August,82,52,67,0.23
+Wellington,August,56,45,51,3.28
+Luxembourg,August,74,57,65,2.92
+Windhoek,August,78,49,64,0.01
+Madrid,August,91,66,78,0.39
+Yaoundé,August,80,68,74,4.95
+Majuro,August,87,78,82,10.99
+Yerevan,August,88,64,76,0.64
+Male,August,88,79,84,1.51
+Zagreb,August,83,62,72,2.81
