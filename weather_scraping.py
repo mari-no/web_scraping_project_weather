@@ -6,6 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from time import sleep
 import pandas as pd
 
 options = webdriver.ChromeOptions()
@@ -19,6 +20,7 @@ try:
     driver.get("https://www.timeanddate.com/weather/?low=c")
 
     print("Page loaded!")
+
     print(driver.title)
 #load all the capitals 
     cities = driver.find_elements(
@@ -80,6 +82,7 @@ try:
                 "Precipitation": precipitation,
         
             })
+            sleep(1)
         return climate_monthly
 
     capitals_climate_monthly = []

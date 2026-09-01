@@ -3,7 +3,7 @@ import pandas as pd
 raw_climate_data = pd.read_csv('climate_data.csv')
 #check df info
 print("Raw dataframe info:")
-print(raw_climate_data.info)
+print(raw_climate_data.info())
 # check if there are NaN values and its count
 na_count =  raw_climate_data.isna().sum().sum()
 print( "Null values : ", na_count)
@@ -22,9 +22,10 @@ for column in temp_columns:
 #check modified df info
 
 print("Modified dataframe info:")
-print(climate_data.info)
+print(climate_data.info())
 
 #check for duplicates
 duplicates_count = climate_data.duplicated().sum()
+climate_data = climate_data.drop_duplicates()
 
 print ("Duplicated rows count: ", duplicates_count)
