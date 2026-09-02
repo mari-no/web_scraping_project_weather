@@ -55,7 +55,7 @@ try:
         )
 
 except sqlite3.IntegrityError:
-    print(f"{name} is already in the database.")
+    print(f"{capital,} is already in the database.")
 except sqlite3.Error as error:
     print(f"An error occurred: {error}")
 
