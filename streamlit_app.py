@@ -62,45 +62,47 @@ filtered_df = df[df["capital_name"].isin(sidebar_options)]
 # Create two side-by-side columns
 col1, col2 = st.columns(2)
 
-with col1:  # Everything under this goes into the left column
-#Visualization 1 of averafge temperature
+if filtered_df.empty:
+    st.warning("Please select at least one city.")
 
-    st.subheader("Average temperature by Capital")
-    filtered_df.plot(
-    x="capital_name",
-    y="mean_temp",
-    kind = "bar",
-    color="skyblue",
-    title="Average Temperature by Capital",
-    xlabel="Capital",
-    ylabel="Average Temperature, F")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    st.pyplot(plt.gcf())
+else:
+    with col1:  # Everything under this goes into the left column
+    #Visualization 1 of averafge temperature
 
-with col2:  # Everything under this goes into the right column
- #Visualization 2: max and min temp  
-    st.subheader("Maximum and Minimum Temperature")
-    default = df["capital_name"].sort_values()
+        st.subheader("Average temperature by Capital")
+        filtered_df.plot(
+        x="capital_name",
+        y="mean_temp",
+        kind = "bar",
+        color="skyblue",
+        title="Average Temperature by Capital",
+        xlabel="Capital",
+        ylabel="Average Temperature, F")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        st.pyplot(plt.gcf())
 
-# # Line Plot
-    filtered_df.plot(x="capital_name", y=["max_temp", "min_temp"], 
-                 kind="line", title="Max vs. Min Temperature",
-                xlabel="Capital", ylabel="Temperature, F")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    st.pyplot(plt.gcf())
+    with col2:  # Everything under this goes into the right column
+    #Visualization 2: max and min temp  
+        st.subheader("Maximum and Minimum Temperature")
+    # # Line Plot
+        filtered_df.plot(x="capital_name", y=["max_temp", "min_temp"], 
+                    kind="line", title="Max vs. Min Temperature",
+                    xlabel="Capital", ylabel="Temperature, F")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        st.pyplot(plt.gcf())
 
 
 
 
-#Visualization 3: Interactive Visualizations with Plotly
-st.subheader("Average Temperature vs Precipitation")
-fig = px.scatter(df, x='mean_temp',
-                  y='precipitation_value',
-                  color="capital_name",
-                title="Average Temperature vs Precipitation", hover_data=["capital_name"], 
-                 color_discrete_sequence=px.colors.qualitative.Alphabet)
+    #Visualization 3: Interactive Visualizations with Plotly
+    st.subheader("Average Temperature vs Precipitation")
+    fig = px.scatter(df, x='mean_temp',
+                    y='precipitation_value',
+                    color="capital_name",
+                    title="Average Temperature vs Precipitation", hover_data=["capital_name"], 
+                    color_discrete_sequence=px.colors.qualitative.Alphabet)
 
-fig.update_layout(legend_title_text = "City")
-st.plotly_chart(fig)
+    fig.update_layout(legend_title_text = "City")
+    st.plotly_chart(fig)
